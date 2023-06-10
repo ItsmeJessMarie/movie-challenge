@@ -1,0 +1,106 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/806/original/Goonies_Map.jpg?1686182218");
+}
+#steven-spielberg,
+#movie-cast {
+  text-align: center;
+  font-style: italic;
+}
+#movie-title,
+#movie-tagline,
+#wikipedia-movie,
+#question-goonies,
+#button-goonies,
+.footer {
+  text-align: center;
+}
+a#wikipedia-link,
+a#shecodes-profile {
+  text-decoration: none;
+  color: #fff;
+}
+#wikipedia-link:hover,
+#shecodes-profile:hover {
+  color: #da1b23;
+}
+#yes-goonies,
+#no-goonies {
+  margin: 0 10px 0;
+  padding: 10px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#wikipedia-movie,
+.footer {
+  font-size: 14px;
+}
+#the-goonies-movie {
+  font-family: "Merienda", cursive;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 25px;
+  max-width: 55%;
+  background-color: rgba(36, 37, 21, 0.8);
+}
+#movie-title {
+  padding: 0 0 10px 0;
+  font-size: 64px;
+  color: #b4a85c;
+}
+#poster {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#poster-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#steven-spielberg,
+#movie-plot,
+#yes-goonies,
+#no-goonies {
+  font-size: 16px;
+}
+#movie-plot {
+  position: relative;
+  vertical-align: middle;
+}
+#boys-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#movie-tagline {
+  font-size: 40px;
+  padding: 25px 0 10px 0;
+}
+#wikipedia-movie {
+  padding: 0 0 25px 0;
+}
+hr {
+  border-style: inset;
+  border-width: 1px;
+}
+#question-goonies {
+  font-size: 26px;
+  color: #b4a85c;
+}
+#button-goonies {
+  padding: 28px 0 0;
+}
+.footer {
+  padding: 25px 0 5px;
+}
+a {
+  text-decoration: none;
+  color: #da1b23;
+}
