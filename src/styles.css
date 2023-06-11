@@ -25,14 +25,10 @@ a#shecodes-profile {
 }
 #yes-goonies,
 #no-goonies {
-  margin: 0 10px 0;
-  padding: 10px 30px;
+  margin: 0 5px;
+  padding: 10px 50px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-#wikipedia-movie,
-.footer {
-  font-size: 14px;
 }
 #the-goonies-movie {
   font-family: "Merienda", cursive;
@@ -79,26 +75,28 @@ a#shecodes-profile {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-#movie-tagline {
-  font-size: 40px;
-  padding: 25px 0 10px 0;
-}
 #wikipedia-movie {
-  padding: 0 0 25px 0;
+  font-size: 15px;
+  padding: 5px 0;
 }
 hr {
   border-style: inset;
   border-width: 1px;
 }
 #question-goonies {
-  font-size: 26px;
+  font-size: 38px;
   color: #b4a85c;
 }
 #button-goonies {
-  padding: 28px 0 0;
+  padding: 20px 0 0;
+}
+#movie-tagline {
+  font-size: 32px;
+  padding: 30px 0 8px 0;
 }
 .footer {
-  padding: 25px 0 5px;
+  font-size: 14px;
+  padding: 20px 0 0;
 }
 a {
   text-decoration: none;
