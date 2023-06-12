@@ -1,5 +1,7 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/806/original/Goonies_Map.jpg?1686182218");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #steven-spielberg,
 #movie-cast {
