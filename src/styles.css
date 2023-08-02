@@ -3,18 +3,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container,
+#movie-title {
+  text-align: center;
+}
+#poster-image,
+#boys-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 #steven-spielberg,
 #movie-cast {
   text-align: center;
   font-style: italic;
-}
-#movie-title,
-#movie-tagline,
-#wikipedia-movie,
-#question-goonies,
-#button-goonies,
-.footer {
-  text-align: center;
 }
 a#wikipedia-link,
 a#shecodes-profile {
@@ -38,48 +42,25 @@ a#shecodes-profile {
   display: block;
   margin: 0 auto;
   padding: 15px 25px;
-  max-width: 55%;
+  max-width: 60%;
   background-color: rgba(36, 37, 21, 0.8);
 }
 #movie-title {
   padding: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 68px;
   color: #b4a85c;
 }
-#poster {
-  position: relative;
-  width: 100%;
-  height: 100%;
+#steven-spielberg {
+  font-size: 18px;
 }
-#poster-image {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-#steven-spielberg,
 #movie-plot,
 #yes-goonies,
 #no-goonies {
   font-size: 16px;
 }
-#movie-plot {
-  position: relative;
-  vertical-align: middle;
-}
-#boys-image {
-  display: block;
-  margin: 0 auto;
-  max-width: 50%;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
 #wikipedia-movie {
   font-size: 15px;
-  padding: 5px 0;
+  padding: 10px 5px 0;
 }
 hr {
   border-style: inset;
@@ -103,4 +84,27 @@ hr {
 a {
   text-decoration: none;
   color: #da1b23;
+}
+@media (max-width: 768px) {
+  #the-goonies-movie {
+    max-width: 100%;
+  }
+  #movie-title {
+    font-size: 48px;
+  }
+  #steven-spielberg,
+  #movie-plot,
+  #movie-cast {
+    font-size: 14px;
+  }
+  #question-goonies {
+    font-size: 26px;
+  }
+  #yes-goonies,
+  #no-goonies {
+    font-size: 12px;
+  }
+  #movie-tagline {
+    font-size: 24px;
+  }
 }
